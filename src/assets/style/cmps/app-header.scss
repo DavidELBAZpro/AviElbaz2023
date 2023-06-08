@@ -1,0 +1,29 @@
+.app-header {
+    background-color: lightpink;
+    // height: 4rem;
+    padding: 20px 0;
+    border-bottom: 0;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    z-index: 20;
+
+    .main-logo {
+        margin: 1rem;
+    }
+
+    .navbar  {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin: 1rem;
+
+        li {
+            padding: 0 0.5rem;
+        }
+    }
+
+}
