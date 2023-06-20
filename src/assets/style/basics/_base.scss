@@ -3,7 +3,8 @@
 }
 
 html {
-  font-family: circular-medium, sans-serif, gotham-bold, helvetica, arial, sans-serif;
+  font-family: circular-medium, sans-serif, gotham-bold, helvetica, arial,
+    sans-serif;
   font-size: 14px;
   background-color: lightblue;
 }
@@ -14,9 +15,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-
-
-
 button {
   font-family: circular, gotham-bold, helvetica, arial, sans-serif;
 }
@@ -26,13 +24,11 @@ a {
   color: inherit;
 }
 
-
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 
 h1,
 h2,
@@ -53,9 +49,7 @@ p {
   display: grid;
 }
 
-
-
-//SCROLLBAR 
+//SCROLLBAR
 
 // @include for-mobile-layout {
 //   ::-webkit-scrollbar {
@@ -65,27 +59,25 @@ p {
 // }
 
 /* width */
-::-webkit-scrollbar {
-  background-color: inherit;
-  transition: background-color, .4s;
-  width: 11px;
-  height: 11px;
-}
+// ::-webkit-scrollbar {
+//   background-color: inherit;
+//   transition: background-color, .4s;
+//   width: 11px;
+//   height: 11px;
+// }
 
+// /* Track */
+// ::-webkit-scrollbar-track {
+//   background-color: transparent;
+// }
 
-/* Track */
-::-webkit-scrollbar-track {
-  background-color: transparent;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background-color: rgba(255,255,255,.3); 
-  transition: background-color .2s;
-}
+// /* Handle */
+// ::-webkit-scrollbar-thumb {
+//   background-color: rgba(255, 255, 255, 0.3);
+//   transition: background-color 0.2s;
+// }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255,255,255,.4); 
-}
-
+// /* Handle on hover */
+// ::-webkit-scrollbar-thumb:hover {
+//   background-color: rgba(255, 255, 255, 0.4);
+// }

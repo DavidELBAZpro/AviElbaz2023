@@ -1,0 +1,59 @@
+.app-header {
+  background-color: lightpink;
+  // height: 4rem;
+  padding: 20px 0;
+  border-bottom: 0;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  z-index: 20;
+
+  .main-logo {
+    margin: 1rem;
+  }
+
+  .navbar {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+
+    li {
+      padding: 0 0.5rem;
+    }
+  }
+}
+
+.hamburger-container {
+  width: 3rem;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .active {
+    span {
+      opacity: 0;
+    }
+
+    &:before {
+      top: 6.5px;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      bottom: 6.5px;
+      transform: rotate(-45deg);
+    }
+  }
+
+  .menu-hamburger {
+    width: 10rem;
+    background: linear-gradient(120deg, aqua, violet);
+    transform: translateX(105%); /* move it horizontally off the page */
+    transition: transform 0.5s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  }
+}
